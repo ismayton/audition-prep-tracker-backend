@@ -1,7 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This Rails API serves as the backend for the audition prep tracker frontend, found [here](https://github.com/ismayton/audition-prep-tracker-frontend)
+
+To initialize and seed the database, run `rails db:migrate` and `rails db:seed`.
+
+To start the server in development mode, run `rails s`.
 
 Things you may want to cover:
 
@@ -10,10 +13,6 @@ Things you may want to cover:
 * System dependencies
 
 * Configuration
-
-* Database creation
-
-* Database initialization
 
 * How to run the test suite
 
